@@ -2,9 +2,9 @@ name: Release
 on:
   workflow_dispatch:
   # TODO: uncomment
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 jobs:
   release:
